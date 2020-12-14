@@ -1,0 +1,28 @@
+body,footer{
+  background-color: black;
+}
+h1,h3 {
+  color: #a40000;
+  font-style: : oblique;
+  font-family: fantasy;
+  font-size: 35px;
+}
+p{
+  color: white;
+  font-size: 110%;
+  font-family: fantasy;
+  background-image: image();
+}
+nav{
+  padding: 10px;
+  border-color: #a40000;
+  border: 2px #a40000 solid;
+}
+footer p{
+  background-color: black;
+  font-family: serif;
+}
+audio{
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
