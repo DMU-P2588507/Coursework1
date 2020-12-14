@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- this meta tag ensure that when the webpage goes to mobile it scales correctly. -->
+<title>Home Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" /> <!-- This links an external CSS file to this HTML. This also enables other pages of HTML to follow the same style without having to code the style again as that can also be linked. -->
+  </head>
+  <body> <!-- The body is the main section of the code. Everything in this section of the HTML will be the bulk of the page-->
+    <div class="logo">
+    <center><img src="img/logo.jpeg" alt="IT Logo" style="max-width:50%"/> <!-- https://hyperpix.net/fonts/it-film-font/ using percentages for the image rather than pixels for the image means when the proportions of the website change, the image will be relative. To get the image, it had to be sourced from the img folder.  -->
+    </div>
+  <style media="screen">
+    nav{
+          display: flex;
+          justify-content:space-around;
+        }
+    nav a {
+      color: white;
+    }
+      </style>
+      <nav>
+          <a href="Assess.html">Home</a> <!-- In order to get the menu to be next to eachother in one block in a horizontal menu, the nav had to be a flex box. The space around makes sure that they are both evenly spread from eachother as well as the margins. -->
+          <a href="Assess2.html">Cast</a> <!-- href is used here to link to the other page of HTML, meaning the nav has somewhere to take the user to -->
+        </nav>
+          <center><h3> Synopsis:</h3>
+<!-- This section of html creates the border around the nav which is the flexbo. Using the border radius and hex code it produces a red box around the nav -->
+    <style media="screen">
+      p{background-color: #686868;
+        border-radius: 10px;
+      }
+      .synopsis{
+        display:flex;
+        justify-content: space-around;
+}
+      </style> <!-- the div class name is used so the style settings can be used to make the synopsis another flex box in order to place it central. The .synopsis is used as it selects a dic class name to apply style to -->
+    <div class="synopsis">
+<p>
+      Set in Derry 1988, It tells the story of seven young outcasts, facing their own fears and nightmares
+      against the supernatural clown - Pennywise. The clown is known to appear and cause terror to people of Derry
+      every 27 years by preying on the fears of each victim individually. Once one of the children, Bill Denberough, loses his brother to the sewer
+      dwelling clown, the film follows him and the rest of 'The Losers Club', as they try to stop him for good.
+  </div>
+  <div class="trailer">
+
+    <h3> Trailer:</h3>
+    <video controls width=75% poster="img/penny.jpg"> <!--https://www.tvovermind.com/pennywise/ The poster acts as the image that people will see for the video rather than seeing the first frame of the video. Controls means that the video will not auto play whenever the website is loaded. -->
+      <source src="vid/IT.mp4" type="video/mp4" /> <!--https://www.youtube.com/watch?v=FnCdOQsX5kc  A relative url is used to embed video.  -->
+      <source src="vid/IT2.webm"type="video/webm" />
+      <p> Sorry, your browser does not support this video element. You can download this video <a href="vid/IT.mp4">here</a></p> <!--This provides a fallback for users in case they are unable to view the video due to the browser they are using not supporting the file format. The href allows people to click the word here to download the file. -->
+
+  </div>
+</body>
+<footer>
+<center>
+  <p>Joseph Lovell
+  </p>
+  <center><p>
+    P2588507
+  </p>
+  </footer>
+  </html>
