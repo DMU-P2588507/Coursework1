@@ -1,21 +1,20 @@
 body,footer{
-  background-color: black;
+  background-color: black; /* This will male the background colour for both the footer and body black, keeping a theme throughout*/
 }
 h1,h3 {
   color: #a40000;
-  font-style: : oblique;
+  font-style: : oblique;     /*Makes all headers a dark red and all the same font*/
   font-family: fantasy;
   font-size: 35px;
 }
 p{
   color: white;
-  font-size: 110%;
+  font-size: 110%;       /*All paragraph text will be set to the same size and white*/
   font-family: fantasy;
-  background-image: image();
 }
 nav{
   padding: 10px;
-  border-color: #a40000;
+  border-color: #a40000; /* Red border around the nav bar with padding to make it leave space from the home and cast buttons*/
   border: 2px #a40000 solid;
 }
 footer p{
@@ -24,5 +23,5 @@ footer p{
 }
 audio{
   padding-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 40px;    /*padding on top and bottom of audios*/
 }
